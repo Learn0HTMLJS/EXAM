@@ -1,4 +1,4 @@
-@media (max-width: 720px){
+@media (max-width: 1024px){
     .FlexMain{
         flex-direction: column;
     }
@@ -6,18 +6,30 @@
     .HEADER{
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         gap: 10px;
         text-align: center;
     }
 
-    /* .LogoImg{
-        display: none;
-    }
-
-    .AdaptiveLogoImg{
-        display: inline-flex;
+    .LogoImg{
+        /* display: none; */
         width: 20%;
         height: 20%;
-        margin: 0 auto;
-    } */
+    }
+
+    .pages{
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .FlexColumn{
+        width: 100%;
+    }
+
+    .InFlex{
+        display: inline-flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: space-around;
+    }
 }

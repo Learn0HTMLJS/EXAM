@@ -28,6 +28,10 @@ h1::selection{
     background-color: var(--Select_Color);
 }
 
+span::selection{
+    background-color: var(--Select_Color);
+}
+
 body::-moz-selection{
     background-color: var(--Select_Color);
 }

@@ -64,17 +64,6 @@ header{
     border-bottom-style: solid;
 }
 
-.StartButton{
-    background-color: var(--AddColor);
-    border-radius: 6px;
-    color: white;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
 .FlexMain{
     display: flex;
     flex-direction: row;
@@ -108,46 +97,50 @@ span{
     color: var(--AddColor);
 }
 
+#FirstBtn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.StartButton{
+    background-color: var(--AddColor);
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 button{
+    display: inline-flex;
+    align-items: center;
     background-color: white;
     border-color: var(--AddColor);
     border-radius: 6px;
     border-width: 1px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 11px;
+    padding-bottom: 22px;
     margin-left: 5%;
     font-size: 16px;
     text-align: center;
+    font-weight: bold;
+}
+
+.ButtonImg{
+    width: 20%;
+    height: 20%;
+    margin-right: 5px;
 }
 
 .Image{
     width: 100%;
     height: 100%;
 }
-
-.NONE{
-    list-style-type: none;
-}
-
-/*=================================================*/
-.LOADER{
-    width: 5%;
-    height: 5%;
-    /*transform: rotate(-360deg);*/
-    animation-name: LOAD;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-iteration-count: 10;
-}
-
-@keyframes LOAD{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(-360deg);
-    }
-}
-/*=================================================*/
