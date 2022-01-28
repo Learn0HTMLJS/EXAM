@@ -1,0 +1,23 @@
+@media (max-width: 720px){
+    .FlexMain{
+        flex-direction: column;
+    }
+
+    .HEADER{
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* .LogoImg{
+        display: none;
+    }
+
+    .AdaptiveLogoImg{
+        display: inline-flex;
+        width: 20%;
+        height: 20%;
+        margin: 0 auto;
+    } */
+}
