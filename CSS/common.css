@@ -106,6 +106,14 @@ span{
     margin-top: auto;
 }
 
+.InFlex{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-shrink: 5;
+}
+
 .StartButton{
     background-color: var(--AddColor);
     border-radius: 6px;
@@ -115,23 +123,33 @@ span{
     padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 20%;
+}
+
+#FirstBtn{
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 button{
     display: inline-flex;
     align-items: center;
     background-color: white;
-    border-color: var(--AddColor);
+    border-color: var(--AddColor); 
     border-radius: 6px;
     border-width: 1px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 11px;
-    padding-bottom: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
     margin-left: 5%;
     font-size: 16px;
     text-align: center;
     font-weight: bold;
+    width: 30%;
 }
 
 .ButtonImg{

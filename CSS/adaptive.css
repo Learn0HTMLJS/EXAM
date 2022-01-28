@@ -39,6 +39,25 @@
     }
 
     h1{
-        font-size: 30;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 200px){
+    h1{
+        font-size: 20px;
+    }
+
+    .SmallH{
+        font-size: 15px;
+    }
+
+    .LogoImg{
+        width: 40%;
+        height: 40%;
+    }
+
+    .ButtonImg{
+        display: none;
     }
 }
